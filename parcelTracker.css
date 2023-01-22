@@ -1,0 +1,465 @@
+body, html
+{
+    background-color: #FFFE9F;
+    padding: 0;
+    margin: 0;
+}
+div
+{
+    -ms-overflow-style: inherit;
+    overflow: hidden;
+}
+#registerDetails
+{
+    width: 50%;
+    height: 60%;
+    background-color: #FFD39F;
+    display: block;
+    margin-left: 25%;
+    margin-top: 50px;
+    text-align: center;
+    border-style: solid;
+}
+#btnGoToCheckout
+{
+    margin-left: 42.5%;
+    text-align: center;
+}
+.loginMessage
+{
+    background-color: #B789D4;
+    font-family: serif;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 25%;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 27%;
+}
+.registerMessage
+{
+    background-color: #B789D4;
+    font-family: serif;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    margin: 50% 40%;
+}
+#homepageMessage
+{
+    width: 60%;
+    height: 40%;
+    background-color: #FFD39F;
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-style: solid;
+    padding: 1%;
+}
+#productDetails, #orderProductsForm
+{
+    width: 40%;
+    height: 40%;
+    background-color: #FFD39F;
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    border-style: solid;
+}
+#orderProductsForm
+{
+    width: 50% !important;
+    height: 50% !important;
+}
+#registeredUserParcelData, #visitorParcelData
+{
+    background-color: white;
+    border-style: solid;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    width: 65%;
+    display: block;
+    margin-top: 5%;
+}
+#registeredUserParcelInformationTable
+{
+    margin-left: 5%;
+    margin-top: 10%;
+    float: left;
+    width: 50%;
+    margin-bottom: 5%;
+    position: relative;
+}
+#registeredUserParcelHistoryTable
+{
+    float: right;
+    display: block;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 30%;
+    position: relative;
+}
+#parcelSelector, #productSelector, #userSelector
+{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#registeredUserSidebar, #manageProductsSidebar, #searchParcelsSidebar
+{
+    width: 15%;
+    height: 80%;
+    float: right;
+    text-align: center;
+    background-color: #FFD39F;
+    border-style: solid;
+    display: block;
+}
+table
+{
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+th.tableHeader
+{
+    background-color: white;
+}
+th.tableSubheader
+{
+    background-color: #B789D4;
+}
+td
+{
+    background-color: #FFD39F;
+}
+#manageAlternativeDeliveryArrangments, #manageDeliveryPriorityDetails, #manageMiscellaneousParcelDetails, #manageRecipientAddressDetails, #newParcelHistoryStatusUpdate
+{
+    background-color: #FFD39F;
+    border-style: solid;
+}
+#updateProduct, #createProduct, #updateUser
+{
+    text-align: center;
+    background-color: #FFD39F;
+    border-style: solid;
+    width: 50%;
+    margin-left: 25%;
+    height: 70%;
+}
+#createProduct
+{
+    margin-left: 15%;
+    width: 70% !important;
+}
+
+#productPageSelector
+{
+    background-color: #FFD39F;
+    border-style: solid;
+    width: 100%;
+    float: bottom;
+}
+#productPageSelector a
+{
+    margin-left: 5%;
+    text-align: center;
+}
+#productPageSelector a.currentPageLink
+{
+    display: inline-block;
+    background-color: #85B7CF;
+    border-style: solid;
+}
+#btnDeleteProduct, #btnDeleteUser
+{
+    margin-left: 10%;
+}
+#updateProductForm, #createProductForm, #updateUserForm
+{
+    padding: 2.5%;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+.manageParcelSubSection
+{
+    text-align: center;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+#manageParcelHistoryTable
+{
+    padding: 0% !important;
+}
+#manageParcelDataOuterSection, #manageParcelHistoryOuterSection, #updateProductOuterSection, #createProductOuterSection, #updateUserOuterSection, #productShoppingSelector, #myAlternativeDeliveryArrangementsOuterSection, #shoppingCartProductsList
+{
+    width: 70%;
+    border-style: solid;
+    background-color: white;
+    margin: 5% auto;
+}
+#manageParcelHistoryOuterSection
+{
+    margin-top: 2% !important;
+    margin: 7%;
+}
+#createProductOuterSection, #updateUserOuterSection, #productShoppingSelector
+{
+    width: 50% !important;
+}
+body .message
+{
+    margin: 2.5% auto auto;
+
+}
+#myAlternativeDeliveryArrangementsOuterSection
+{
+    width: 25% !important;
+    display: block;
+    float: left;
+    margin-left: 5%;
+}
+#productDataList
+{
+    padding: 2%;
+    display: grid;
+    -ms-grid-columns: 130px;
+    grid-template-columns: 95%;
+}
+#manageParcelData, #manageParcelHistoryData
+{
+    padding: 2%;
+    display: grid;
+    -ms-grid-columns: 150px 150px;
+    grid-template-columns: 50% 50%;
+}
+.product
+{
+    padding: 5%;
+}
+.productDataForm, #searchParcelsForm, #myAlternativeDeliveryArrangementsForm, .shoppingCartProduct
+{
+    background-color: #FFD39F;
+    text-align: center;
+    border-style: solid;
+    width: 100%;
+}
+#searchParcelsForm
+{
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 25% !important;
+}
+#myAlternativeDeliveryArrangementsForm, .shoppingCartProduct
+{
+    width: 90% !important;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#loginDetails
+{
+     background-color: #FFD39F;
+     display: block;
+     width: 30%;
+     height: 40%;
+     margin-left: 33%;
+     margin-top: 50px;
+     text-align: center;
+     border-style: solid;
+}
+
+#webpageHeader
+{
+    background-color: #85B7CF;
+    height: 20%;
+    font-size: 28px;
+    font-family: serif;
+    font-style: oblique;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    color: #FFFE9F;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+}
+input[type=submit]
+{
+    background-color: #85B7CF;
+}
+input[type=text], input[type=number], textarea
+{
+    text-align: center;
+}
+.message, .fullWidthMessage
+{
+    background-color: #B789D4;
+    font-family: serif;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 25%;
+    height: 5%;
+    position: relative;
+    margin-left: 35%;
+
+}
+#myAlternativeDeliveryArrangementsOuterSection .message
+{
+    width: 40% !important;
+    margin-left: 30% !important;
+}
+.fullWidthMessage
+{
+    width: 100% !important;
+    height: 15% !important;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#noneSelectedMessage, #accountTip
+{
+    background-color: #85B7CF;
+    font-family: serif;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 15%;
+    height: 3%;
+    margin: 2.5% auto;
+}
+#navigationBar
+{
+    background-color: #B789D4;
+    font-size: 18px;
+    height: 10%;
+    font-family: sans-serif;
+    text-align: right;
+    border-style: solid;
+}
+#navigationBar a, #registeredUserSidebar a, #manageProductsSidebar a
+{
+    padding: 14px 16px;
+    font-style: oblique;
+}
+#navigationBar a:hover, #registeredUserSidebar a:hover, #manageProductsSidebar a:hover, #productPageSelector a:hover, #searchParcelsSidebar a:hover
+{
+    color: white;
+    border-color: black;
+}
+#navigationBar a.currentPageLink
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #85B7CF;
+    border-style: solid;
+}
+#registeredUserSidebar a.currentPageLink, #manageProductsSidebar a.currentPageLink, #searchParcelsSidebar a.currentPageLink
+{
+    display: block;
+    background-color: #85B7CF;
+    border-style: solid;
+}
+td a
+{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 600px)
+{
+    .loginMessage
+    {
+        margin-top: 90% !important;
+    }
+    #loginDetails, #registerDetails
+    {
+        float: left;
+    }
+    #webpageHeader
+    {
+        width: 100%;
+    }
+    #navigationBar
+    {
+        width: 100%;
+    }
+
+    #visitorParcelData
+    {
+        margin-top: 5%;
+    }
+    #registeredUserSidebar
+    {
+        margin-top: 5%;
+        width: 40%;
+    }
+    #manageProductsSidebar, #searchParcelsSidebar
+    {
+        margin-top: 5%;
+        width: 50%;
+        float: left;
+    }
+    #productSelector
+    {
+        margin-top: 50%;
+    }
+
+    #registeredUserSidebar h2, #manageProductsSidebar h2, #searchParcelsSidebar h2
+    {
+        font-size: 12px;
+    }
+    #registeredUserSidebar h3
+    {
+        font-size: 11px;
+    }
+    #registeredUserSidebar a, #manageProductsSidebar a, #searchParcelsSidebar a
+    {
+        font-size: 10px;
+    }
+    #registeredUserSidebar br, #manageProductSidebar br, #searchParcelsSidebar br
+    {
+        display: none;
+    }
+    #createProductOuterSection
+    {
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 1200px)
+{
+    .loginMessage
+    {
+        margin-top: 55%;
+    }
+}
+@media screen and (max-width: 1000px)
+{
+    #navigationBar
+    {
+        font-size: 12px;
+    }
+    #webpageHeader
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-height: 500px)
+{
+    #webpageHeader
+    {
+        font-size: 16px;
+    }
+    #loginDetails #registerDetails
+    {
+        height: 75%;
+        width: 75%;
+    }
+}
